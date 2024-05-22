@@ -1,0 +1,54 @@
+label{
+    display: inline-block;
+    width: 140px;
+}   
+
+input {
+    width: 160px;
+}
+
+label, button{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CDE8E5;
+}
+
+.crud-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.crud-content {
+    text-align: left;
+}
+
+.bottom-left-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.custom-button {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #FFCBCB;
+}
+
+
